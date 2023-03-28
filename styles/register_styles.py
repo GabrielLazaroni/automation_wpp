@@ -25,26 +25,24 @@ button_style = {
     'color': '#ffff',
     '_hover': {
         'background_color': '#1B4E46'
-    },
-    'display': 'flex'
+    }
 }
 
-login_container_style = {
+register_container_style = {
     'width': '500px',
-    'height': '23rem',
+    'height': '28rem',  # 80vh
     'background_color': '#F6FBF9',
     'border_radius': '20px',
-    'center_content': True,
-    'margin_bottom': '6rem',
+    'center_content': True
 }
 
 footer_text = {
-    'margin_bottom': '1rem',
     'color': '#1B4E46',
     'text_decoration': 'none',
     '_hover': {
         'color': '#000'
     },
     'font_weight': "Bold",
-    "padding": "0.8rem"
+    "padding": "0.8rem",
+
 }
